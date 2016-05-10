@@ -1,3 +1,4 @@
+
 #contentsection {
 	padding:20px 20px 20px 20px;
 	margin-left: 100px;
@@ -44,11 +45,13 @@
 	float: right;
 	background-color: #3E42FF;
 	color:#fff;
+
 }
 #social {
 	margin-top: 20px;
 }
 #container {
+	width:100%;
   min-height: 85%;
   margin-bottom: -142px; 
 }
@@ -92,15 +95,13 @@
 
 .nav {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
     overflow: hidden;
     color:#fff;
 }
 .nav li {
 	float:left;
-    margin-right: 30px;
-    color:#fff;
+  margin-right: 30px;
+  color:#fff;
 }
 .portfolio li {
 	float:left;
@@ -169,6 +170,7 @@ input {
 }
 html, body {
   height: 100%;
+  width:100%;
 }
 .img {
 	position:absolute;
@@ -189,7 +191,7 @@ html, body {
 	margin-top:20px;
 	padding: 15px;
 	width: 510px;
-	height: 250px;
+	height: 150px;
 	background-color: #fff;
 	border: 1px solid #000;
 	margin-right:90px;
@@ -206,11 +208,32 @@ html, body {
 
 @media screen and (max-width: 640px) {
 	#nav {
-	width:280px;
+	width:591px;
 	font-family: sans-serif;
-	margin-right: 100px;
-	float: right;
-	background-color: #3E42FF;
+	display:block;
+	background-color: #7b497c;
 	color:#fff;
+	margin-right:0px;
+	margin-top:20px;
+	margin-left:150px;
+	text-align:center;
+	padding:10px 10px 10px 10px;
+  }
+	#sidebar {
+	margin-top:20px;
+	padding: 15px;
+	width: 510px;
+	height: 150px;
+	background-color: #fff;
+	border: 1px solid #000;
+	margin-right:0px;
+  }
+  .nav li {
+	float:left;
+    margin-right: 80px;
+    color:#fff;
 }
+	.nav {
+		margin-left:160px;
+	}
 }
