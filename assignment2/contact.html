@@ -34,15 +34,37 @@
   <div class="col-md-8">
 		<div class="panel panel-primary">
   		<div class="panel-heading">
-    		<h2 class="panel-title">About Me</h2>
+    		<h2 class="panel-title">Contact Me</h2>
   		</div>
   	<div class="panel-body">
-    	<p>
-    	<img width="250px" height="250px" src="assets/images/profilepic.jpg" style="float:left; margin-right:10px;" />
-				Welcome to my portfolio, my name is David Guben. I'm currently an IT specialist who freelances as a graphic designer while going to Rutgers to become a Developer. I started off as a designer working freelance for random companies after I got my degree in Design and Animation. During my time studying design I was introduced to minor development languages(HTML,CSS, JavaScript and PHP). Most nights I found myself staying up trying to figure out how to make the code function rather than focusing on the design. That lead me to shift my mindset to coding which lead to me joining the Rutgers Coding Bootcamp to advance my career into Development. Along the way I taught myself how to build and repair computers which landed me a steady full time job in the IT field.</p>
-				<p>
-				To sum it up, I have a passion to create. Weather its artwork, a website, an app, a new computer or even a lego spaceship I just love the feeling of creating something and learning from it. If you would like to hire me feel free to <a href="contact.html">contact me</a>.
-			</p>
+    	<form class="form-horizontal">
+  <fieldset>
+  <div class="form-group">
+      <label for="inputName" class="col-lg-2 control-label">Name</label>
+      <div class="col-lg-10">
+        <input type="text" class="form-control" id="inputName" placeholder="Name">
+      </div>
+      </div>
+    <div class="form-group">
+      <label for="inputEmail" class="col-lg-2 control-label">Email</label>
+      <div class="col-lg-10">
+        <input type="text" class="form-control" id="inputEmail" placeholder="Email">
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="textArea" class="col-lg-2 control-label">Textarea</label>
+      <div class="col-lg-10">
+        <textarea class="form-control" rows="5" id="textArea"></textarea>
+      </div>
+    </div>
+    <div class="form-group">
+      <div class="col-lg-10 col-lg-offset-2">
+        <button type="reset" class="btn btn-default">Cancel</button>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </div>
+    </div>
+  </fieldset>
+</form>
   	</div>
 	</div>
 </div>
